@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A91EBEE5-40AC-4952-8701-8DF61490BF9F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>FINAL_PEREZ_GABRIELA.My.MyApplication</StartupObject>
+    <RootNamespace>FINAL_PEREZ_GABRIELA</RootNamespace>
+    <AssemblyName>FINAL_PEREZ_GABRIELA</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>logo_ico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>FINAL_PEREZ_GABRIELA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>FINAL_PEREZ_GABRIELA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAlumnosPorMateriaPorTurno.Designer.vb">
+      <DependentUpon>frmAlumnosPorMateriaPorTurno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlumnosPorMateriaPorTurno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlumnosPorTurno.Designer.vb">
+      <DependentUpon>frmAlumnosPorTurno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlumnosPorTurno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatosTurnos.Designer.vb">
+      <DependentUpon>frmDatosTurnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDatosTurnos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMEXAMENES.Designer.vb">
+      <DependentUpon>FRMEXAMENES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMEXAMENES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListaExamenes.Designer.vb">
+      <DependentUpon>frmListaExamenes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListaExamenes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListaMaterias.Designer.vb">
+      <DependentUpon>frmListaMaterias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListaMaterias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListaProfesores.Designer.vb">
+      <DependentUpon>frmListaProfesores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListaProfesores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMMATERIAS.Designer.vb">
+      <DependentUpon>FRMMATERIAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMMATERIAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMPROFESORES.designer.vb">
+      <DependentUpon>FRMPROFESORES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMPROFESORES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlumnos.Designer.vb">
+      <DependentUpon>frmAlumnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlumnos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBienvenida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBienvenida.Designer.vb">
+      <DependentUpon>frmBienvenida.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMENU.designer.vb">
+      <DependentUpon>FRMENU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMENU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMLOGEO.designer.vb">
+      <DependentUpon>FRMLOGEO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMLOGEO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMPERSONAS.designer.vb">
+      <DependentUpon>FRMPERSONAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMPERSONAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insc_ExamenDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Insc_ExamenDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAlumnosPorMateriaPorTurno.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAlumnosPorMateriaPorTurno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlumnosPorTurno.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAlumnosPorTurno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDatosTurnos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDatosTurnos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMEXAMENES.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FRMEXAMENES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListaExamenes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmListaExamenes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListaMaterias.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmListaMaterias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListaProfesores.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmListaProfesores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMMATERIAS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FRMMATERIAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMPROFESORES.resx">
+      <DependentUpon>FRMPROFESORES.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlumnos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAlumnos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBienvenida.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBienvenida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMENU.resx">
+      <DependentUpon>FRMENU.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMLOGEO.resx">
+      <DependentUpon>FRMLOGEO.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMPERSONAS.resx">
+      <DependentUpon>FRMPERSONAS.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Insc_ExamenDataSet.xsc">
+      <DependentUpon>Insc_ExamenDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Insc_ExamenDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Insc_ExamenDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Insc_ExamenDataSet.xss">
+      <DependentUpon>Insc_ExamenDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo_ico.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
